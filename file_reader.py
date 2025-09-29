@@ -1,0 +1,5 @@
+file_object = open("pi_digit.txt","w+")
+file_object.write("333333.0000023455555")
+file_object.seek(0)
+content = file_object.read()
+print(content)

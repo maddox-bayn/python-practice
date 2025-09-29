@@ -1,0 +1,20 @@
+#1 = open("file_1.txt","w+")
+#print(f1.tell())
+#f1.write("Hi Maddox world")
+#print(f1.tell())
+
+#f1.write("i want to learn your work")
+#print(f1.tell())
+#f1.seek(0)
+#data = f1.read()
+#print(data)
+#print(f1.tell())
+#f1.close()
+
+f1 = open("f2.jpg","rb")
+#f1.write("Hello student")
+f2=open("f23.jpg","wb")
+for i in f1:
+    f2.write(i)
+#print(f1.read())
+#f1.write("maddox's codden")
